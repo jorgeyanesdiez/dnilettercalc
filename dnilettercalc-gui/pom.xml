@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>info.jorgeyanesdiez.dnilettercalc</groupId>
+    <artifactId>dnilettercalc-all</artifactId>
+    <version>1.0.0</version>
+    <relativePath>../dnilettercalc-all/pom.xml</relativePath>
+  </parent>
+  <artifactId>dnilettercalc-gui</artifactId>
+  <name>DNI Letter Calculator GUI</name>
+  <description>GUI frontend to the DNI calculator service.</description>
+  <dependencies>
+    <dependency>
+      <groupId>javax.inject</groupId>
+      <artifactId>javax.inject</artifactId>
+      <version>1</version>
+    </dependency>
+    <dependency>
+      <groupId>info.jorgeyanesdiez.dnilettercalc</groupId>
+      <artifactId>dnilettercalc-service</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>
