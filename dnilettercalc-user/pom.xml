@@ -75,8 +75,7 @@
               <goal>shade</goal>
             </goals>
             <configuration>
-              <finalName>dnilettercalc-${project.version}</finalName>
-              <shadedArtifactAttached>true</shadedArtifactAttached>
+              <outputFile>../dnilettercalc-${project.version}.jar</outputFile>
             </configuration>
           </execution>
         </executions>
