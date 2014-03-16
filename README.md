@@ -1,4 +1,4 @@
-dnilettercalc
-=============
+DNI letter calculator
+=====================
 
-Provides the components to calculate the letter that corresponds to a Spanish DNI document.
+A simple application to calculate the control letter for a Spanish DNI document (national ID card).
